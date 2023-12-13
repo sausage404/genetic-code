@@ -54,7 +54,7 @@ export default function App() {
                 </div>
             </div>
             <div className="flex justify-center items-center flex-col py-4 text-gray-400" style={{height: "20vh"}}>
-                <p className="text-md">Made with 💓 by Mr Maxing</p>
+                <p className="text-md">Made with 🧠 by Mr Maxing</p>
                 <p className="text-md font-bold">Support True Money Wallet</p>
                 <p className="text-md">Parinya Pantimit</p>
                 <p className="text-md">062-920-5280</p>

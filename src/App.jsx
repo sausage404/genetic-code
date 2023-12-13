@@ -18,7 +18,7 @@ export default function App() {
                         <h1 className="text-3xl font-bold my-4 text-zinc-800">Genetic Code Converter</h1>
                         <div className="flex mb-4">
                             <input
-                                className="px-3 rounded-l-md py-1 text-md rounded-try w-80 bg-gray-50 border border-gray-300 focus:outline-none focus:ring-0 focus:ring-offset-0 focus:ring-offset-gray-300 focus:ring-white transition duration-300 ease-in-out"
+                                className="px-3 rounded-l-md py-1 text-md rounded-try w-full bg-gray-50 border border-gray-300 focus:outline-none focus:ring-0 focus:ring-offset-0 focus:ring-offset-gray-300 focus:ring-white transition duration-300 ease-in-out"
                                 placeholder="DNA"
                                 onChange={(e) => setReq(e.target.value.toLocaleUpperCase())}
                                 value={req}

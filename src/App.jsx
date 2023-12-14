@@ -53,7 +53,7 @@ export default function App() {
                     </div>
                     <div className="flex flex-wrap max-w-screen-xl justify-center">
                         {res.map((v, i) => (
-                            <div key={i} className="flex items-centerc">
+                            <div key={i} className="flex items-center px-2">
                                 <div className="rounded-md border border-gray-300 p-4 m-4 bg-gray-50 w-full">
                                     <button
                                         className="float-right bg-orange-500 text-white rounded-md p-2 hover:bg-orange-600 transition duration-300 ease-in-out focus:outline-none focus:ring-0 focus:ring-offset-0 focus:ring-offset-gray-300 focus:ring-white"
